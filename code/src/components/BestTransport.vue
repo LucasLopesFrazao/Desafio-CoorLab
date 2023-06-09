@@ -169,7 +169,7 @@ export default {
       this.peso = null
       this.empresaBarata = null
       this.empresaRapida = null
-      this.clear = true
+      this.clear = !this.clear;
     },
   },
 }
